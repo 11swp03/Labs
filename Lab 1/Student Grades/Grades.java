@@ -1,4 +1,4 @@
-package Student Grades;
+package Grades;
 
 public class Grades {
     public static void main (String[] args) {
