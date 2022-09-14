@@ -14,4 +14,5 @@ public class Grades {
         System.out.println("\tSophia\t43\t7\t50");
         System.out.println("\tSam\t41\t4\t45");
         System.out.println ();
+    }
 }
