@@ -8,7 +8,7 @@ public class Lab1 {
         System.out.println ("\t====\t\t========");
         System.out.println ("\tJohn\t\tEffingham\tCS&E");
         System.out.println ("\tMoui\t\tHartford\tCS&E");
-        System.out.println ("\tBob\t\tMeriden\tMath");
+        System.out.println ("\tBob\t\tMeriden\t\tMath");
         System.out.println ();
     }
 }
