@@ -12,6 +12,9 @@ public class Dice {
     die2 = Genorator2.nextInt(5) + 1;
     Tdice = (die1 + die2);
 
+    System.out.println("First Die: " + die1);
+    System.out.println("Second Die: " + die2);
+    System.out.println("Total Value: " + Tdice);
 
     }
 }
