@@ -20,7 +20,7 @@ public class Distance {
         y2 = input.nextDouble();
 
         // Compute the distance
-        distance = Math.sqrt((Math.pow(x1-x2, 2))+(Math.pow(y1-y2, 2)));
+        distance = Math.sqrt(((Math.pow(x1-x2, 2))+(Math.pow(y1-y2, 2))));
         // Print out the answer
         System.out.println("Distance Calculated: " + distance);
     }
