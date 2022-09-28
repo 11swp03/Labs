@@ -14,8 +14,8 @@ public class Factorial {
         i = input.nextInt();
 
         for(int n = 1;n <= i ;n++){
-            i = i * n;
+            factor = i * n;
         }
-        System.out.println("Test" + i);
+        System.out.println("Test" + factor);
     }
 }
