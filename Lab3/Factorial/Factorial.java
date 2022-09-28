@@ -9,7 +9,7 @@ public class Factorial {
 
 		do {
 			Scanner input = new Scanner (System.in);
-
+			
 			System.out.println("Factorial Calculator");
 			System.out.println();
 			System.out.print("Enter a positive integer: ");
