@@ -23,5 +23,6 @@ public class LoveCS {
 		for(n = 1;n <= numberoftimes ;n++){
 			sum += n;
 			}
+		System.out.println("The sum of the numbers from 1 to " + numberoftimes + " is " + sum);
     }
 }
