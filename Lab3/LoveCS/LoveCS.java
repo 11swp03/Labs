@@ -17,5 +17,6 @@ public class LoveCS {
 
             count++;
         }
+		System.out.println("Message was printed " + numberoftimes + "times");
     }
 }
