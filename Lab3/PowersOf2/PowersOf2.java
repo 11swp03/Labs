@@ -14,14 +14,11 @@ public class PowersOf2 {
 
         // print a message saying how many powers of 2 will be printed
         // initialize exponent -- the first thing printed is 2 to the what?
-        exponent = 0;
+        
 
-        while ( ) {
-            //print out current power of 2
-
-            //find next power of 2 -- how do you get this from the last one?
-
-            //increment exponent
-        }
+        for(exponent = 0; exponent <= numPowersOf2 ; exponent++){
+            numPowersOf2 *= nextPowerOf2;
+            }
+        System.out.println("Test " + nextPowerOf2);
     }
 }
