@@ -5,8 +5,14 @@ public class LoveCS {
         final int LIMIT = 10;
 
         int count = 1;
+        int numberoftimes;
 
-        while (count <= LIMIT) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter the number of times the message should be printed: ");
+        numberoftimes = input.nextInt();
+
+        while (count <= numberoftimes) {
             System.out.println("I love Computer Science!!");
 
             count++;
