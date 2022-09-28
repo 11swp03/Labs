@@ -14,9 +14,12 @@ public class Factorial {
         System.out.print("Enter a positive integer: ");
         i = input.nextInt();
 
-        for(n = 1;n <= i ;n++){
+        if (i>0) {
+            for(n = 1;n <= i ;n++){
             factor *= n;
-        }
+            }
+        } else { factor = 1; }
         System.out.println("The Factorial of " + i + " is " + factor);
+    
     }
 }
