@@ -4,7 +4,7 @@ public class Factorial {
 
     public static void main(String[] args) {
         int i;
-        int factor;
+        int factor = 1;
 
         Scanner input = new Scanner (System.in);
 
@@ -14,7 +14,7 @@ public class Factorial {
         i = input.nextInt();
 
         for(int n = 1;n <= i ;n++){
-            factor = i * n;
+            factor *= n;
         }
         System.out.println("Test" + factor);
     }
