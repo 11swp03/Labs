@@ -18,7 +18,7 @@ public class LoveCS {
 
             count++;
         }
-		System.out.println("Message was printed " + numberoftimes + "times");
+		System.out.println("Message was printed " + numberoftimes + " times");
 
 		for(n = 1;n <= numberoftimes ;n++){
 			sum += n;
