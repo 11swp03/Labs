@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Factorial {
 
     public static void main(String[] args) {
+        int n;
         int i;
         int factor = 1;
 
@@ -13,7 +14,7 @@ public class Factorial {
         System.out.print("Enter a positive integer: ");
         i = input.nextInt();
 
-        for(int n = 1;n <= i ;n++){
+        for(n = 1;n <= i ;n++){
             factor *= n;
         }
         System.out.println("The Factorial of " + i + " is " + factor);
