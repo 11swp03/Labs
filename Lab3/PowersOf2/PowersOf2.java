@@ -16,8 +16,8 @@ public class PowersOf2 {
         // initialize exponent -- the first thing printed is 2 to the what?
         
 
-        for(exponent = 0; exponent <= numPowersOf2 ; exponent++ , nextPowerOf2++){
-            numPowersOf2 *= nextPowerOf2;
+        for(exponent = 0; exponent <= numPowersOf2 ; exponent++){
+            numPowersOf2 = numPowersOf2 * 2;
             }
         System.out.println("Test " + nextPowerOf2);
     }
