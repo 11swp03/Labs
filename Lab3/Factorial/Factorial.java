@@ -15,11 +15,16 @@ public class Factorial {
         i = input.nextInt();
 
         if (i>0) {
-            for(n = 1;n <= i ;n++){
-            factor *= n;
-            }
-        } else { factor = 1; }
-        System.out.println("The Factorial of " + i + " is " + factor);
+            	for(n = 1;n <= i ;n++){
+            	factor *= n;
+            	}
+			System.out.println("The Factorial of " + i + " is " + factor);
+        } else if (i<0){
+            System.out.println("Please enter a positive integer");
+        } else { 
+			factor = 1;
+			System.out.println("The Factorial of " + i + " is " + factor);
+		}
     
     }
 }
