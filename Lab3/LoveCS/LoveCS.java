@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class LoveCS {
     public static void main(String[] args) {
         final int LIMIT = 10;
