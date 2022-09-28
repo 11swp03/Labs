@@ -16,6 +16,6 @@ public class Factorial {
         for(int n = 1;n <= i ;n++){
             factor *= n;
         }
-        System.out.println("Test" + factor);
+        System.out.println("The Factorial of " + i + "is " + factor);
     }
 }
