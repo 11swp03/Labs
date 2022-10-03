@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class LoveCS {
     public static void main(String[] args) {
         final int LIMIT = 10;
-		int sum = 1;
+        int sum = 1;
         int count = 1;
-		int n;
+        int n;
         int numberoftimes;
 
         Scanner input = new Scanner(System.in);
@@ -18,11 +18,11 @@ public class LoveCS {
 
             count++;
         }
-		System.out.println("Message was printed " + numberoftimes + " times");
+        System.out.println("Message was printed " + numberoftimes + " times");
 
-		for(n = 1;n <= numberoftimes ;n++){
-			sum += n;
-			}
-		System.out.println("The sum of the numbers from 1 to " + numberoftimes + " is " + sum);
+        for(n = 1;n <= numberoftimes ;n++){
+            sum += n;
+            }
+        System.out.println("The sum of the numbers from 1 to " + numberoftimes + " is " + sum);
     }
 }
