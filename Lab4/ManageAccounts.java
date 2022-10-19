@@ -15,6 +15,7 @@ public class ManageAccounts {
         acct2 = new Account(500, "Joe", 1112)
 
         // Deposit $100 to Joe’s account
+        acct2 = new Deposit(100);
 
         // Print Joe’s new balance (use getBalance())
 
