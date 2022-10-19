@@ -64,5 +64,6 @@ public class Account {
     // Changes the name on the account
     //-------------------------------------------------------------------------------
     public void changeName(String newName) {
+        name = newName;
     }
 }
