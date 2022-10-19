@@ -15,7 +15,7 @@ public class ManageAccounts {
         acct2 = new Account(500, "Joe", 1112);
 
         // Deposit $100 to Joe’s account
-        acct2 = new void Deposit(100);
+        acct2 = new deposit(100);
 
         // Print Joe’s new balance (use getBalance())
         getBalance();
