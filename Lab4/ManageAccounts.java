@@ -3,7 +3,7 @@
 //
 //   Use Account class to create and manage Sally’s and Joe’s bank accounts
 // **********************************************************************************
-
+import Account.Account;
 public class ManageAccounts {
     public static void main(String[] args) {
         Account acct1, acct2;
@@ -15,7 +15,7 @@ public class ManageAccounts {
         acct2 = new Account(500, "Joe", 1112);
 
         // Deposit $100 to Joe’s account
-        Deposit(100);
+        acct2 = new void Deposit(100);
 
         // Print Joe’s new balance (use getBalance())
         getBalance();

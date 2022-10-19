@@ -4,6 +4,8 @@
 // A bank account class with methods to deposit to, withdraw from, change the name
 // on, charge a fee to, and return a string representation of the account.
 //***********************************************************************************
+package Account;
+
 public class Account {
     private double balance;
     private String name;
@@ -47,18 +49,17 @@ public class Account {
     //-------------------------------------------------------------------------------
     // Returns a string containing the name, account number, and balance
     //-------------------------------------------------------------------------------
-    public String toString() {
-        return name;
-        return acctNum;
-        return balance;
-    }
+    // public String toString() {
+    //     return;
+    // }
 
     //-------------------------------------------------------------------------------
     // Deducts $10 service fee
     //-------------------------------------------------------------------------------
-    public double chargeFee() {
-        balance -= 10;
-    }
+    // public double chargeFee() {
+    //     balance -= 10;
+    //     return;
+    // }
 
     //-------------------------------------------------------------------------------
     // Changes the name on the account
