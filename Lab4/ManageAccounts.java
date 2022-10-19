@@ -15,17 +15,23 @@ public class ManageAccounts {
         acct2 = new Account(500, "Joe", 1112)
 
         // Deposit $100 to Joe’s account
-        acct2 = new Deposit(100);
+        Joe = new Deposit(100);
 
         // Print Joe’s new balance (use getBalance())
+        Joe = new getBalance();
 
         // Withdraw $50 from Sally’s account
+        Sally = new withdraw(50);
 
         // Print Sally’s new balance (use getBalance())
+        Sally = new getBalance();
 
         // Charge fees to both accounts
+        Joe = new chargeFee();
+        Sally = new chargeFee();
 
         // Change the name on Joe’s account to Joseph
+        Joe = new changeName("Joeseph")
 
         // Print summary for both accounts
     }
