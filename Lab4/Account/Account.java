@@ -49,17 +49,16 @@ public class Account {
     //-------------------------------------------------------------------------------
     // Returns a string containing the name, account number, and balance
     //-------------------------------------------------------------------------------
-    // public String toString() {
-    //     return;
-    // }
+    public String toString() {
+        return;
+    }
 
     //-------------------------------------------------------------------------------
     // Deducts $10 service fee
     //-------------------------------------------------------------------------------
-    // public double chargeFee() {
-    //     balance -= 10;
-    //     return;
-    // }
+    public double chargeFee() {
+        balance -= 10;
+    }
 
     //-------------------------------------------------------------------------------
     // Changes the name on the account
