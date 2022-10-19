@@ -12,6 +12,7 @@ public class ManageAccounts {
         acct1 = new Account(1000, "Sally", 1111);
 
         // Create account2 for Joe with $500
+        acct2 = new Account(500, "Joe", 1112)
 
         // Deposit $100 to Joe’s account
 
