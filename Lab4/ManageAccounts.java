@@ -18,13 +18,13 @@ public class ManageAccounts {
         acct2.deposit(100);
 
         // Print Joe’s new balance (use getBalance())
-        acct2.getBalance();
+        System.out.println(acct2.getBalance());
 
         // Withdraw $50 from Sally’s account
         acct1.withdraw(50);
 
         // Print Sally’s new balance (use getBalance())
-        acct1.getBalance();
+        System.out.print(acct1.getBalance());
 
         // Charge fees to both accounts
         acct1.chargeFee();
