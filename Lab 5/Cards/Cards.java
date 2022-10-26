@@ -21,5 +21,7 @@ public class Cards {
         Rank highCard, faceCard, card1, card2;
         highCard = Rank.ace;
         faceCard = Rank.queen;
+        card1 = Rank.six;
+        card2 = Rank.nine;
     }
 }
