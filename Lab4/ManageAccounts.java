@@ -34,7 +34,7 @@ public class ManageAccounts {
         acct2.changeName("Joeseph");
 
         // Print summary for both accounts
-        acct1.toString();
-        acct2.toString();
+        System.out.println(acct1.toString());
+        System.out.println(acct2.toString());
     }
 }
