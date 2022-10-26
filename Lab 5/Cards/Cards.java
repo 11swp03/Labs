@@ -20,5 +20,6 @@ public class Cards {
     public static void main(String[] args) {
         Rank highCard, faceCard, card1, card2;
         highCard = Rank.ace;
+        faceCard = Rank.queen;
     }
 }
