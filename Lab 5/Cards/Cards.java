@@ -26,6 +26,6 @@ public class Cards {
         Card2Val = card2.ordinal() + 1;
 
         System.out.println("A two card hand: " + card1 + " " + card2);
-        System.out.println("Hand Value: " );
+        System.out.println("Hand Value: " + (Card1Val+Card2Val));
     }
 }
