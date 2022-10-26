@@ -19,7 +19,6 @@ public class ManageAccounts {
 
         // Print Joe’s new balance (use getBalance())
         acct2.getBalance();
-        System.out.println(balance);
 
         // Withdraw $50 from Sally’s account
         acct1.withdraw(50);
