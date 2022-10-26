@@ -50,7 +50,9 @@ public class Account {
     // Returns a string containing the name, account number, and balance
     // -------------------------------------------------------------------------------
     public String toString() {
-        return name, acctNum, balance;
+        return name;
+        return acctNum;
+        return balance;
     }
 
     //-------------------------------------------------------------------------------
