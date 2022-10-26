@@ -23,5 +23,7 @@ public class Cards {
         faceCard = Rank.queen;
         card1 = Rank.six;
         card2 = Rank.nine;
+
+        System.out.println("A two card hand: " + card1 + card2);
     }
 }
