@@ -24,7 +24,7 @@ public class ManageAccounts {
         acct1.withdraw(50);
 
         // Print Sally’s new balance (use getBalance())
-        System.out.print(acct1.getBalance());
+        System.out.println(acct1.getBalance());
 
         // Charge fees to both accounts
         acct1.chargeFee();
