@@ -46,9 +46,9 @@ public class Account {
         return balance;
     }
 
-    -------------------------------------------------------------------------------
-    Returns a string containing the name, account number, and balance
-    -------------------------------------------------------------------------------
+    // -------------------------------------------------------------------------------
+    // Returns a string containing the name, account number, and balance
+    // -------------------------------------------------------------------------------
     public String toString() {
         return name;
     }
